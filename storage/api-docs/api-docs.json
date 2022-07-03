@@ -1,0 +1,36 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "[PROJECT TITLE]",
+        "description": "OpenAPI Documentation for the [PROJECT NAME]",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "http://my-default-host.com",
+            "description": "[PROJECT NAME] Server"
+        }
+    ],
+    "paths": {
+        "/api/v1/example": {
+            "get": {
+                "tags": [
+                    "Example"
+                ],
+                "description": "Returns the example data",
+                "operationId": "0c9c46a68ac0867da5e4cef912b5c003",
+                "responses": {
+                    "200": {
+                        "description": "Successful fetch of example data"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Example",
+            "description": "API Endpoints for Example"
+        }
+    ]
+}
